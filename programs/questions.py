@@ -35,7 +35,16 @@
 
 
 def one(input1, input2):
-    return ""
+    if len(input1) > len(input2):
+        return(input1)
+    elif len(input2) > len(input1):
+        return(input2)
+    return (input1 + " " + input2)
+            
+        
+
+
+
 
    # <QUESTION 2>
 
@@ -61,6 +70,7 @@ def one(input1, input2):
 
 
 def two(input):
+
     return ""
 
 
@@ -85,6 +95,7 @@ def two(input):
 
 
 def three(arg1):
+  
     return ""
 
     # <QUESTION 4>
@@ -179,6 +190,7 @@ def six(input):
 
 
 def seven(input):
+
     return ""
 
     # <QUESTION 8>
